@@ -66,6 +66,10 @@ h3 {
   font-size: 24px;
 }
 
+.navbar-toggler-icon{
+color: #E28F83;
+}
+
 .navbar-brand:hover {
   color: #8E9775;
 }
@@ -94,12 +98,36 @@ body {
 }
 
 
+
 /* unfished hidden sections */
 #testimonials{
-display: none;
+padding: 7% 15%;
+background-color: #E28F83;
+color: #FAF2DA;
+text-align: left;
+}
+h2{
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+height: 1.2;
+}
+.profile-image{
+  width: 30%;
+    transform: rotate(30deg);
+      transform: scaleX(1);
+}
+.plants-text{
+  position: absolute;
+  left: 27rem;
+
 }
 #press{
-  display: none;
+  padding: 7% 15%;
+  background-color: #E28F83;
+}
+.images{
+  width: 30%;
+  padding: 20px 20px 50px;
 }
 #pricing{
     display: none;
