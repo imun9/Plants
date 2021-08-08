@@ -51,7 +51,7 @@ h1 {
 }
 
 .iconcolor:hover {
-  color: #E28F83;
+  color:  #E28F83;
 }
 
 .navbar-brand {
@@ -122,12 +122,25 @@ height: 1.2;
 
 }
 #press{
-  padding: 7% 15%;
+  padding: 3% 15%;
   background-color: #E28F83;
 }
 .images{
-  width: 30%;
-  padding: 20px 20px 50px;
+  width: 43%;
+}
+.carousel-item{
+  text-align: center;
+}
+hr{
+  background-color: transition;
+  border: none;
+  border-top: 10px dotted #8E9775;
+  width: 16%;
+
+}
+h4{
+  color: #FAF2DA;
+  padding: 16px;
 }
 #pricing{
     display: none;
