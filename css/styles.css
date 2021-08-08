@@ -92,6 +92,7 @@ color: #E28F83;
 
 body {
   font-family: 'Ubuntu', 'sans-serif';
+  max-width: 100%;
 }
 
 .navbar {
