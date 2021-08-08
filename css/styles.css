@@ -1,3 +1,7 @@
+.sections-all{
+  width: 100%;
+
+}
 h1 {
   font-family: 'Ubuntu', 'sans-serif';
   font-size: 3rem;
@@ -7,6 +11,7 @@ h1 {
 }
 
 #title {
+  padding: 2% 15% 7%;
   padding-bottom: 2rem;
   background-color: #FAF2DA;
   max-width: 100%;
@@ -36,7 +41,7 @@ h1 {
 }
 
 #features {
-  padding-top: 4rem;
+  padding: 7% 15%;
   max-width: 100%;
 }
 
@@ -86,13 +91,15 @@ color: #E28F83;
   font-weight: lighter;
 }
 
-.row {
+/* .row {
   padding: 2rem;
+} */
+html, body{
+width:100%;
 }
-
 body {
   font-family: 'Ubuntu', 'sans-serif';
-  max-width: 100%;
+  width: 100%;
 }
 
 .navbar {
