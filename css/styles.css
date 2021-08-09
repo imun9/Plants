@@ -1,7 +1,7 @@
-.sections-all{
+.sections-all {
   width: 100%;
-
 }
+
 h1 {
   font-family: 'Ubuntu', 'sans-serif';
   font-size: 3rem;
@@ -58,7 +58,7 @@ h1 {
 }
 
 .iconcolor:hover {
-  color:  #E28F83;
+  color: #E28F83;
 }
 
 .navbar-brand {
@@ -73,8 +73,8 @@ h3 {
   font-size: 24px;
 }
 
-.navbar-toggler-icon{
-color: #E28F83;
+.navbar-toggler-icon {
+  color: #E28F83;
 }
 
 .navbar-brand:hover {
@@ -94,9 +94,10 @@ color: #E28F83;
 /* .row {
   padding: 2rem;
 } */
-html, body{
-width:100%;
+html, body {
+  width: 100%;
 }
+
 body {
   font-family: 'Ubuntu', 'sans-serif';
   width: 100%;
@@ -106,67 +107,97 @@ body {
   padding: 2rem;
   background-color: #FAF2DA;
 }
-section{
+
+section {
   width: 100%
 }
 
 
-
-/* unfished hidden sections */
-#testimonials{
+#testimonials {
   max-width: 100%;
-padding: 7% 15%;
-background-color: #E28F83;
-color: #FAF2DA;
-text-align: left;
+  padding: 7% 15%;
+  background-color: #E28F83;
+  color: #FAF2DA;
+  text-align: left;
 }
-h2{
-font-family: 'Montserrat', sans-serif;
-font-size: 2rem;
-height: 1.2;
-text-align: left;
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  height: 1.2;
+  text-align: left;
 }
-.profile-image{
+
+.profile-image {
   width: 30%;
   text-align: right;
-    transform: rotate(30deg);
-      transform: scaleX(1);
+  transform: rotate(30deg);
+  transform: scaleX(1);
+}
 
-}
-.closer-image{
+.closer-image {
   text-align: center;
 }
-.plants-text{
+
+.plants-text {
   text-align: center;
 }
-#press{
+
+#press {
   max-width: 100%;
   padding: 3% 15%;
   background-color: #E28F83;
 }
-.images{
+
+.images {
   width: 43%;
 }
-.carousel-item{
+
+.carousel-item {
   text-align: center;
 }
-hr{
+
+hr {
   background-color: transition;
   border: none;
   border-top: 10px dotted #8E9775;
   width: 16%;
-
 }
-h4{
+
+h4 {
   color: #FAF2DA;
   padding: 16px;
 }
-#pricing{
-    display: none;
+p{
+  height: 10px;
 }
-#cta{
+#pricing {
+  padding: 3% 15%;
+  text-align: center;
+  background-color: #FAF2DA;
+}
+.entry{
+  color: #8E9775;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+h6{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+.h3cards{
+  color: #E28F83;
+}
+.h5cards{
+  color: #4A503D;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#cta {
   display: none;
 }
-#footer{
-    display: none;
+
+#footer {
+  display: none;
 }
