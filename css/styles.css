@@ -127,20 +127,26 @@ h2 {
   height: 1.2;
   text-align: left;
 }
+.closer-row{
+  padding-bottom: 4rem;
+}
 
 .profile-image {
   width: 30%;
   text-align: right;
   transform: rotate(30deg);
   transform: scaleX(1);
+    display: inline-block;
 }
 
 .closer-image {
   text-align: center;
+  display: inline-block;
 }
 
 .plants-text {
   text-align: center;
+    display: inline-block;
 }
 
 #press {
