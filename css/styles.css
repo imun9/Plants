@@ -7,18 +7,26 @@ h1 {
   font-size: 3rem;
   line-height: 1.3;
   font-weight: 600;
-  color: #4A503D;
 }
 
 #title {
   padding: 2% 15% 7%;
   padding-bottom: 2rem;
+    color: #4A503D;
   background-color: #FAF2DA;
   max-width: 100%;
 }
 
 .image-box {
   width: 400px;
+}
+
+@media (max-width:1028px){
+  .image-box{
+    size:60%;
+
+
+  }
 }
 
 .image-div {
@@ -201,9 +209,22 @@ h6{
 }
 
 #cta {
-  display: none;
+  padding: 3% 15%;
+  text-align: center;
+  background-color:  #4A503D;
+  color: #FAF2DA;
 }
 
 #footer {
-  display: none;
+  padding: 3% 15%;
+  text-align: center;
+  background-color: #8E9775;
+  color: #FAF2DA;
+}
+.social-icons{
+  padding: 1% 1%;
+
+}
+.social-icons:hover{
+  color: #4A503D;
 }
